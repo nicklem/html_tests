@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        html {
+            scroll-padding-top: 8rem;
+        }
+
+        .nav {
+            padding: 2rem 0;
+            border-bottom: 1px solid #ccc;
+            position: sticky;
+            top: 0;
+            background-color: white;
+            z-index: 100;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="nav">Nav</div>
+
+    <h2>Page title</h2>
+
+    <p>
+        <a href="#offset">First row</a>
+    </p>
+
+    <p>
+        <a href="#no-offset">Second row</a>
+    </p>
+    
+    <p style="margin-bottom: 100vh;">Some space here...</p>
+
+    <table>
+        <tbody>
+            <tr>
+                <td>
+                    <p id="offset" class="offset-correction">
+                        <strong>First row</strong>
+                    </p>
+                </td>
+                <td>
+                    <p>Dolore incididunt dolor in sunt pariatur do adipisicing consequat nostrud. Velit culpa amet incididunt nulla ut fugiat laborum incididunt in elit amet ut. Ullamco veniam adipisicing culpa elit duis amet elit ex do consequat voluptate amet pariatur.</p>
+                </td>
+                <td>
+                    <p>Content</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p id="no-offset">
+                        <strong>Second row</strong>
+                    </p>
+                </td>
+                <td>
+                    <p>Dolore incididunt dolor in sunt pariatur do adipisicing consequat nostrud. Velit culpa amet incididunt nulla ut fugiat laborum incididunt in elit amet ut. Ullamco veniam adipisicing culpa elit duis amet elit ex do consequat voluptate amet pariatur.</p>
+                </td>
+                <td>
+                    <p>Content</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>
+                        <strong>Header</strong>
+                    </p>
+                </td>
+                <td>
+                    <p>Dolore incididunt dolor in sunt pariatur do adipisicing consequat nostrud. Velit culpa amet incididunt nulla ut fugiat laborum incididunt in elit amet ut. Ullamco veniam adipisicing culpa elit duis amet elit ex do consequat voluptate amet pariatur.</p>
+                </td>
+                <td>
+                    <p>Content</p>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <p style="margin-bottom: 100vh;">Some more space here...</p>
+        
+</body>
+</html>
