@@ -1,1 +1,102 @@
-This works
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .offset-correction {
+            position: relative;
+            display: inline-block;
+            padding-top: 8rem;
+            margin-top: -8rem;
+        }
+
+        .nav {
+            padding: 2rem 0;
+            border-bottom: 1px solid #ccc;
+            position: sticky;
+            top: 0;
+            background-color: white;
+            z-index: 100;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        table td {
+            border: 1px solid #ccc;
+            width: 33%;
+            vertical-align: top;
+            padding: 1rem;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="nav">Nav</div>
+
+    <h2 style="margin-top: 8rem;">Page title</h2>
+
+    <p>
+        <a href="#offset">Offset correction</a>
+    </p>
+
+    <p>
+        <a href="#no-offset">No offset correction</a>
+    </p>
+    
+    <p style="margin-bottom: 100vh;">Some space here...</p>
+
+    <table>
+        <tbody>
+            <tr>
+                <td>
+                    <p id="offset" class="offset-correction">
+                        <strong>Offset corrected</strong>
+                    </p>
+                </td>
+                <td>
+                    <p>Dolore incididunt dolor in sunt pariatur do adipisicing consequat nostrud. Velit culpa amet incididunt nulla ut fugiat laborum incididunt in elit amet ut. Ullamco veniam adipisicing culpa elit duis amet elit ex do consequat voluptate amet pariatur.</p>
+                </td>
+                <td>
+                    <p>Content</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p id="no-offset">
+                        <strong>No offset correction</strong>
+                    </p>
+                </td>
+                <td>
+                    <p>Dolore incididunt dolor in sunt pariatur do adipisicing consequat nostrud. Velit culpa amet incididunt nulla ut fugiat laborum incididunt in elit amet ut. Ullamco veniam adipisicing culpa elit duis amet elit ex do consequat voluptate amet pariatur.</p>
+                </td>
+                <td>
+                    <p>Content</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>
+                        <strong>Header</strong>
+                    </p>
+                </td>
+                <td>
+                    <p>Dolore incididunt dolor in sunt pariatur do adipisicing consequat nostrud. Velit culpa amet incididunt nulla ut fugiat laborum incididunt in elit amet ut. Ullamco veniam adipisicing culpa elit duis amet elit ex do consequat voluptate amet pariatur.</p>
+                </td>
+                <td>
+                    <p>Content</p>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <p style="margin-bottom: 100vh;">Some more space here...</p>
+    
+</body>
+</html>
